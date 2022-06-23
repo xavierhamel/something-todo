@@ -1,25 +1,45 @@
-import logo from './logo.svg';
-import './App.css';
+import useKeyboard from './hooks/useKeyboard';
+import useNavigation from './hooks/useNavigation';
+import useTasks from './hooks/useTasks';
+import useTheme from './hooks/useTheme';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import Nav from './components/Nav';
+import List from './components/List';
+import StatusLine from './components/StatusLine';
+import CommandLine from './components/CommandLine';
+
+const App = () => {
+    const theme = useTheme();
+
+    // navigation.list
+    // navigation.mode
+    // navigation.opened
+    // navigation.send()
+    const navigation = useNavigation();
+
+    // tasks.lists
+    // tasks.lists[navigation.list]
+    // tasks.item
+    // tasks.send()
+    const tasks = useTasks({navigation});
+
+    // Handle the keyboard events.
+    useKeyboard({navigation, tasks});
+
+    //  If we are in help or lists, there is no loading.
+    if (!['help', 'lists'].includes(navigation.list)) {
+        if (tasks.lists === undefined || navigation.list === null || !tasks.lists[navigation.list]) {
+            return <div className="line">Loading...</div>;
+        }
+    }
+    return (
+        <div className="wrapper">
+            <Nav navigation={navigation} />
+            <List navigation={navigation} tasks={tasks} />
+            <StatusLine navigation={navigation} tasks={tasks} />
+            <CommandLine navigation={navigation} tasks={tasks} theme={theme} />
+        </div>
+    );
 }
 
 export default App;

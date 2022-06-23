@@ -1,13 +1,144 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+    font-family: "RobotoMono";
+    src: local("RobotoMonoBold"), url("./fonts/RobotoMono-Bold.ttf") format("truetype");
+    font-weight: bold;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+    font-family: "RobotoMono";
+    src: local("RobotoMonoRegular"), url("./fonts/RobotoMono-Regular.ttf") format("truetype");
+    font-weight: normal;
+}
+
+
+
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: "RobotoMono";
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow: hidden;
+}
+#root {
+    background: var(--bg-primary);
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.line {
+    padding: 0;
+    font-size: 16px;
+    width: 100vw;
+    color: var(--fg-secondary);
+    display: flex;
+    flex-direction: row;
+}
+.line__active {
+    background: var(--bg-secondary);
+}
+
+/* NAVIGATION (BUFFERS) */
+.nav-container {
+    background: var(--bg-secondary);
+    color: var(--fg-secondary);
+}
+.nav-button {
+    padding: 0 20px;
+    font-weight: bold;
+    border-left: 3px solid var(--fg-secondary);
+    max-width: 30%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.nav-button__active {
+    color: var(--fg-primary);
+    background: var(--bg-primary);
+    border-left: 3px solid var(--fg-green);
+}
+.nav-container > .nav-button:last-child {
+    border-right: 3px solid var(--fg-secondary);
+}
+
+/* ITEMS (TODOS) */
+.list-container {
+    height: 100%;
+    overflow-y: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+.list-container::-webkit-scrollbar {
+  display: none;
+}
+.item-container {
+    width:100vw;
+}
+.item-container__active > * {
+    color: var(--fg-blue) !important;
+}
+.item-checkbox {
+    color: var(--fg-red);
+    white-space: pre;
+}
+.item-title {
+    color: var(--fg-primary);
+    word-break: break-word;
+}
+/* BOTTOM BAR (AIRLINE) */
+.airline-wrapper {
+    position: relative;
+}
+.airline-container * {
+    white-space: pre;
+}
+.airline-primary {
+    color: var(--bg-primary);
+    text-transform: uppercase;
+}
+.airline-secondary {
+    flex-grow: 1;
+    color: var(--fg-blue);
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.airline-container__normal .airline-primary {
+    background: var(--fg-lime);
+}
+.airline-container__insert .airline-primary {
+    background: var(--fg-blue);
+}
+.airline-container__command .airline-primary {
+    background: var(--fg-pink);
+}
+.airline-container__command .airline-secondary {
+    color: var(--fg-secondary);
+}
+.line-input {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: var(--fg-primary);
+    background: var(--bg-primary);
+    font-size: 16px;
+    font-family: 'RobotoMono';
+    outline: none;
+    resize: none;
+}
+.line-input__error {
+    color: var(--fg-red);
+}
+
+/* HELP PAGE */
+.help-command {
+    color: var(--fg-primary);
+}
+.help-message {
+    color: var(--fg-secondary);
+    white-space: pre-wrap;
 }

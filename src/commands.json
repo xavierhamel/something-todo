@@ -1,0 +1,71 @@
+{
+    "add": {
+        "arguments": [
+            {
+                "help": "task",
+                "autocomplete": null
+            }
+        ],
+        "message": "Add a task to the active list where `task` is the task to add."
+    },
+    "remove": {
+        "arguments": [],
+        "message": "Remove the highlighted task from the active list."
+    },
+    "edit": {
+        "arguments": [
+            {
+                "help": "newtask",
+                "autocomplete": null
+            }
+        ],
+        "message": "Edit the highlighted task from the active list. Replace the highlighted with `newtask`."
+    },
+    "openList": {
+        "arguments": [
+            {
+                "help": "list",
+                "autocomplete": "list"
+            }
+        ],
+        "message": "Open or create a list where `list` is the name of the list."
+    },
+    "deleteList": {
+        "arguments": [],
+        "message": "Delete the active list. This action is permanent."
+    },
+    "renameList": {
+        "arguments": [
+            {
+                "help": "newname",
+                "autocomplete": null
+            }
+        ],
+        "message": "Rename the active list where `newname` is the new name of the list."
+    },
+    "closeList": {
+        "arguments": [],
+        "message": "Close the active list. Can be opened again with `/openList`."
+    },
+    "help": {
+        "arguments": [],
+        "message": "Show this menu."
+    },
+    "lists": {
+        "arguments": [],
+        "message": "Show a list of all the lists."
+    },
+    "ls": {
+        "arguments": [],
+        "message": "Alias to `/lists`."
+    },
+    "theme": {
+        "arguments": [
+            {
+                "help": "theme",
+                "autocomplete": "theme"
+            }
+        ],
+        "message": "Change the theme of the app where `theme` is the name of the theme. Many base-16 themes are supported, see the list here: https://glitchbone.github.io/vscode-base16-term/#/"
+    }
+}

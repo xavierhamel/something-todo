@@ -1,0 +1,2784 @@
+._3024 {
+    --fg-red: #FB4934;
+    --bg-primary: #090300;
+    --bg-secondary: #3a3432;
+    --fg-secondary: #5c5855;
+    --fg-primary: #f7f7f7;
+    --fg-lime: #01a252;
+    --fg-green: #b5e4f4;
+    --fg-blue: #01a0e4;
+    --fg-pink: #a16a94;
+}
+
+.apathy {
+    --fg-red: #FB4934;
+    --bg-primary: #031A16;
+    --bg-secondary: #0B342D;
+    --fg-secondary: #2B685E;
+    --fg-primary: #D2E7E4;
+    --fg-lime: #883E96;
+    --fg-green: #963E4C;
+    --fg-blue: #96883E;
+    --fg-pink: #4C963E;
+}
+
+.apprentice {
+    --fg-red: #FB4934;
+    --bg-primary: #262626;
+    --bg-secondary: #303030;
+    --fg-secondary: #6C6C6C;
+    --fg-primary: #FFFFFF;
+    --fg-lime: #87AF87;
+    --fg-green: #5F875F;
+    --fg-blue: #FFFFAF;
+    --fg-pink: #87AFD7;
+}
+
+.ashes {
+    --fg-red: #FB4934;
+    --bg-primary: #1C2023;
+    --bg-secondary: #393F45;
+    --fg-secondary: #747C84;
+    --fg-primary: #F3F4F5;
+    --fg-lime: #95C7AE;
+    --fg-green: #95AEC7;
+    --fg-blue: #AE95C7;
+    --fg-pink: #C795AE;
+}
+
+.atelier-cave-light {
+    --fg-red: #FB4934;
+    --bg-primary: #efecf4;
+    --bg-secondary: #e2dfe7;
+    --fg-secondary: #7e7887;
+    --fg-primary: #19171c;
+    --fg-lime: #2a9292;
+    --fg-green: #398bc6;
+    --fg-blue: #576ddb;
+    --fg-pink: #955ae7;
+}
+
+.atelier-cave {
+    --fg-red: #FB4934;
+    --bg-primary: #19171c;
+    --bg-secondary: #26232a;
+    --fg-secondary: #655f6d;
+    --fg-primary: #efecf4;
+    --fg-lime: #2a9292;
+    --fg-green: #398bc6;
+    --fg-blue: #576ddb;
+    --fg-pink: #955ae7;
+}
+
+.atelier-dune-light {
+    --fg-red: #FB4934;
+    --bg-primary: #fefbec;
+    --bg-secondary: #e8e4cf;
+    --fg-secondary: #999580;
+    --fg-primary: #20201d;
+    --fg-lime: #60ac39;
+    --fg-green: #1fad83;
+    --fg-blue: #6684e1;
+    --fg-pink: #b854d4;
+}
+
+.atelier-dune {
+    --fg-red: #FB4934;
+    --bg-primary: #20201d;
+    --bg-secondary: #292824;
+    --fg-secondary: #7d7a68;
+    --fg-primary: #fefbec;
+    --fg-lime: #60ac39;
+    --fg-green: #1fad83;
+    --fg-blue: #6684e1;
+    --fg-pink: #b854d4;
+}
+
+.atelier-estuary-light {
+    --fg-red: #FB4934;
+    --bg-primary: #f4f3ec;
+    --bg-secondary: #e7e6df;
+    --fg-secondary: #878573;
+    --fg-primary: #22221b;
+    --fg-lime: #7d9726;
+    --fg-green: #5b9d48;
+    --fg-blue: #36a166;
+    --fg-pink: #5f9182;
+}
+
+.atelier-estuary {
+    --fg-red: #FB4934;
+    --bg-primary: #22221b;
+    --bg-secondary: #302f27;
+    --fg-secondary: #6c6b5a;
+    --fg-primary: #f4f3ec;
+    --fg-lime: #7d9726;
+    --fg-green: #5b9d48;
+    --fg-blue: #36a166;
+    --fg-pink: #5f9182;
+}
+
+.atelier-forest-light {
+    --fg-red: #FB4934;
+    --bg-primary: #f1efee;
+    --bg-secondary: #e6e2e0;
+    --fg-secondary: #9c9491;
+    --fg-primary: #1b1918;
+    --fg-lime: #7b9726;
+    --fg-green: #3d97b8;
+    --fg-blue: #407ee7;
+    --fg-pink: #6666ea;
+}
+
+.atelier-forest {
+    --fg-red: #FB4934;
+    --bg-primary: #1b1918;
+    --bg-secondary: #2c2421;
+    --fg-secondary: #766e6b;
+    --fg-primary: #f1efee;
+    --fg-lime: #7b9726;
+    --fg-green: #3d97b8;
+    --fg-blue: #407ee7;
+    --fg-pink: #6666ea;
+}
+
+.atelier-heath-light {
+    --fg-red: #FB4934;
+    --bg-primary: #f7f3f7;
+    --bg-secondary: #d8cad8;
+    --fg-secondary: #9e8f9e;
+    --fg-primary: #1b181b;
+    --fg-lime: #918b3b;
+    --fg-green: #159393;
+    --fg-blue: #516aec;
+    --fg-pink: #7b59c0;
+}
+
+.atelier-heath {
+    --fg-red: #FB4934;
+    --bg-primary: #1b181b;
+    --bg-secondary: #292329;
+    --fg-secondary: #776977;
+    --fg-primary: #f7f3f7;
+    --fg-lime: #918b3b;
+    --fg-green: #159393;
+    --fg-blue: #516aec;
+    --fg-pink: #7b59c0;
+}
+
+.atelier-lakeside-light {
+    --fg-red: #FB4934;
+    --bg-primary: #ebf8ff;
+    --bg-secondary: #c1e4f6;
+    --fg-secondary: #7195a8;
+    --fg-primary: #161b1d;
+    --fg-lime: #568c3b;
+    --fg-green: #2d8f6f;
+    --fg-blue: #257fad;
+    --fg-pink: #6b6bb8;
+}
+
+.atelier-lakeside {
+    --fg-red: #FB4934;
+    --bg-primary: #161b1d;
+    --bg-secondary: #1f292e;
+    --fg-secondary: #5a7b8c;
+    --fg-primary: #ebf8ff;
+    --fg-lime: #568c3b;
+    --fg-green: #2d8f6f;
+    --fg-blue: #257fad;
+    --fg-pink: #6b6bb8;
+}
+
+.atelier-plateau-light {
+    --fg-red: #FB4934;
+    --bg-primary: #f4ecec;
+    --bg-secondary: #e7dfdf;
+    --fg-secondary: #7e7777;
+    --fg-primary: #1b1818;
+    --fg-lime: #4b8b8b;
+    --fg-green: #5485b6;
+    --fg-blue: #7272ca;
+    --fg-pink: #8464c4;
+}
+
+.atelier-plateau {
+    --fg-red: #FB4934;
+    --bg-primary: #1b1818;
+    --bg-secondary: #292424;
+    --fg-secondary: #655d5d;
+    --fg-primary: #f4ecec;
+    --fg-lime: #4b8b8b;
+    --fg-green: #5485b6;
+    --fg-blue: #7272ca;
+    --fg-pink: #8464c4;
+}
+
+.atelier-savanna-light {
+    --fg-red: #FB4934;
+    --bg-primary: #ecf4ee;
+    --bg-secondary: #dfe7e2;
+    --fg-secondary: #78877d;
+    --fg-primary: #171c19;
+    --fg-lime: #489963;
+    --fg-green: #1c9aa0;
+    --fg-blue: #478c90;
+    --fg-pink: #55859b;
+}
+
+.atelier-savanna {
+    --fg-red: #FB4934;
+    --bg-primary: #171c19;
+    --bg-secondary: #232a25;
+    --fg-secondary: #5f6d64;
+    --fg-primary: #ecf4ee;
+    --fg-lime: #489963;
+    --fg-green: #1c9aa0;
+    --fg-blue: #478c90;
+    --fg-pink: #55859b;
+}
+
+.atelier-seaside-light {
+    --fg-red: #FB4934;
+    --bg-primary: #f4fbf4;
+    --bg-secondary: #cfe8cf;
+    --fg-secondary: #809980;
+    --fg-primary: #131513;
+    --fg-lime: #29a329;
+    --fg-green: #1999b3;
+    --fg-blue: #3d62f5;
+    --fg-pink: #ad2bee;
+}
+
+.atelier-seaside {
+    --fg-red: #FB4934;
+    --bg-primary: #131513;
+    --bg-secondary: #242924;
+    --fg-secondary: #687d68;
+    --fg-primary: #f4fbf4;
+    --fg-lime: #29a329;
+    --fg-green: #1999b3;
+    --fg-blue: #3d62f5;
+    --fg-pink: #ad2bee;
+}
+
+.atelier-sulphurpool-light {
+    --fg-red: #FB4934;
+    --bg-primary: #f5f7ff;
+    --bg-secondary: #dfe2f1;
+    --fg-secondary: #898ea4;
+    --fg-primary: #202746;
+    --fg-lime: #ac9739;
+    --fg-green: #22a2c9;
+    --fg-blue: #3d8fd1;
+    --fg-pink: #6679cc;
+}
+
+.atelier-sulphurpool {
+    --fg-red: #FB4934;
+    --bg-primary: #202746;
+    --bg-secondary: #293256;
+    --fg-secondary: #6b7394;
+    --fg-primary: #f5f7ff;
+    --fg-lime: #ac9739;
+    --fg-green: #22a2c9;
+    --fg-blue: #3d8fd1;
+    --fg-pink: #6679cc;
+}
+
+.atlas {
+    --fg-red: #FB4934;
+    --bg-primary: #002635;
+    --bg-secondary: #00384d;
+    --fg-secondary: #6C8B91;
+    --fg-primary: #fafaf8;
+    --fg-lime: #7fc06e;
+    --fg-blue: #5dd7b9;
+    --fg-green: #14747e;
+    --fg-pink: #9a70a4;
+}
+
+.ayu-dark {
+    --fg-red: #FB4934;
+    --bg-primary: #0F1419;
+    --bg-secondary: #131721;
+    --fg-secondary: #3E4B59;
+    --fg-primary: #F3F4F5;
+    --fg-lime: #B8CC52;
+    --fg-green: #95E6CB;
+    --fg-blue: #59C2FF;
+    --fg-pink: #D2A6FF;
+}
+
+.ayu-light {
+    --fg-red: #FB4934;
+    --bg-primary: #FAFAFA;
+    --bg-secondary: #F3F4F5;
+    --fg-secondary: #ABB0B6;
+    --fg-primary: #1A1F29;
+    --fg-lime: #86B300;
+    --fg-green: #4CBF99;
+    --fg-blue: #36A3D9;
+    --fg-pink: #A37ACC;
+}
+
+.ayu-mirage {
+    --fg-red: #FB4934;
+    --bg-primary: #171B24;
+    --bg-secondary: #1F2430;
+    --fg-secondary: #707A8C;
+    --fg-primary: #F3F4F5;
+    --fg-lime: #D5FF80;
+    --fg-green: #95E6CB;
+    --fg-blue: #5CCFE6;
+    --fg-pink: #D4BFFF;
+}
+
+.bespin {
+    --fg-red: #FB4934;
+    --bg-primary: #28211c;
+    --bg-secondary: #36312e;
+    --fg-secondary: #666666;
+    --fg-primary: #baae9e;
+    --fg-lime: #54be0d;
+    --fg-green: #afc4db;
+    --fg-blue: #5ea6ea;
+    --fg-pink: #9b859d;
+}
+
+.black-metal-bathory {
+    --fg-red: #FB4934;
+    --bg-primary: #000000;
+    --bg-secondary: #121212;
+    --fg-secondary: #333333;
+    --fg-primary: #c1c1c1;
+    --fg-lime: #fbcb97;
+    --fg-green: #aaaaaa;
+    --fg-blue: #888888;
+    --fg-pink: #999999;
+}
+
+.black-metal-burzum {
+    --fg-red: #FB4934;
+    --bg-primary: #000000;
+    --bg-secondary: #121212;
+    --fg-secondary: #333333;
+    --fg-primary: #c1c1c1;
+    --fg-lime: #ddeecc;
+    --fg-green: #aaaaaa;
+    --fg-blue: #888888;
+    --fg-pink: #999999;
+}
+
+.black-metal-dark-funeral {
+    --fg-red: #FB4934;
+    --bg-primary: #000000;
+    --bg-secondary: #121212;
+    --fg-secondary: #333333;
+    --fg-primary: #c1c1c1;
+    --fg-lime: #d0dfee;
+    --fg-green: #aaaaaa;
+    --fg-blue: #888888;
+    --fg-pink: #999999;
+}
+
+.black-metal-gorgoroth {
+    --fg-red: #FB4934;
+    --bg-primary: #000000;
+    --bg-secondary: #121212;
+    --fg-secondary: #333333;
+    --fg-primary: #c1c1c1;
+    --fg-lime: #9b8d7f;
+    --fg-green: #aaaaaa;
+    --fg-blue: #888888;
+    --fg-pink: #999999;
+}
+
+.black-metal-immortal {
+    --fg-red: #FB4934;
+    --bg-primary: #000000;
+    --bg-secondary: #121212;
+    --fg-secondary: #333333;
+    --fg-primary: #c1c1c1;
+    --fg-lime: #7799bb;
+    --fg-green: #aaaaaa;
+    --fg-blue: #888888;
+    --fg-pink: #999999;
+}
+
+.black-metal-khold {
+    --fg-red: #FB4934;
+    --bg-primary: #000000;
+    --bg-secondary: #121212;
+    --fg-secondary: #333333;
+    --fg-primary: #c1c1c1;
+    --fg-lime: #eceee3;
+    --fg-green: #aaaaaa;
+    --fg-blue: #888888;
+    --fg-pink: #999999;
+}
+
+.black-metal-marduk {
+    --fg-red: #FB4934;
+    --bg-primary: #000000;
+    --bg-secondary: #121212;
+    --fg-secondary: #333333;
+    --fg-primary: #c1c1c1;
+    --fg-lime: #a5aaa7;
+    --fg-green: #aaaaaa;
+    --fg-blue: #888888;
+    --fg-pink: #999999;
+}
+
+.black-metal-mayhem {
+    --fg-red: #FB4934;
+    --bg-primary: #000000;
+    --bg-secondary: #121212;
+    --fg-secondary: #333333;
+    --fg-primary: #c1c1c1;
+    --fg-lime: #f3ecd4;
+    --fg-green: #aaaaaa;
+    --fg-blue: #888888;
+    --fg-pink: #999999;
+}
+
+.black-metal-nile {
+    --fg-red: #FB4934;
+    --bg-primary: #000000;
+    --bg-secondary: #121212;
+    --fg-secondary: #333333;
+    --fg-primary: #c1c1c1;
+    --fg-lime: #aa9988;
+    --fg-green: #aaaaaa;
+    --fg-blue: #888888;
+    --fg-pink: #999999;
+}
+
+.black-metal-venom {
+    --fg-red: #FB4934;
+    --bg-primary: #000000;
+    --bg-secondary: #121212;
+    --fg-secondary: #333333;
+    --fg-primary: #c1c1c1;
+    --fg-lime: #f8f7f2;
+    --fg-green: #aaaaaa;
+    --fg-blue: #888888;
+    --fg-pink: #999999;
+}
+
+.black-metal {
+    --fg-red: #FB4934;
+    --bg-primary: #000000;
+    --bg-secondary: #121212;
+    --fg-secondary: #333333;
+    --fg-primary: #c1c1c1;
+    --fg-lime: #dd9999;
+    --fg-green: #aaaaaa;
+    --fg-blue: #888888;
+    --fg-pink: #999999;
+}
+
+.blueforest {
+    --fg-red: #FB4934;
+    --bg-primary: #141F2E;
+    --bg-secondary: #1e5c1e;
+    --fg-secondary: #a0ffa0;
+    --fg-primary: #375780;
+    --fg-lime: #80ff80;
+    --fg-green: #80ff80;
+    --fg-blue: #a2cff5;
+    --fg-pink: #0099FF;
+}
+
+.blueish {
+    --fg-red: #FB4934;
+    --bg-primary: #182430;
+    --bg-secondary: #243C54;
+    --fg-secondary: #616D78;
+    --fg-primary: #8F98A0;
+    --fg-lime: #C3E88D;
+    --fg-green: #5FD1FF;
+    --fg-blue: #82AAFF;
+    --fg-pink: #FF84DD;
+}
+
+.brewer {
+    --fg-red: #FB4934;
+    --bg-primary: #0c0d0e;
+    --bg-secondary: #2e2f30;
+    --fg-secondary: #737475;
+    --fg-primary: #fcfdfe;
+    --fg-lime: #31a354;
+    --fg-green: #80b1d3;
+    --fg-blue: #3182bd;
+    --fg-pink: #756bb1;
+}
+
+.bright {
+    --fg-red: #FB4934;
+    --bg-primary: #000000;
+    --bg-secondary: #303030;
+    --fg-secondary: #b0b0b0;
+    --fg-primary: #ffffff;
+    --fg-lime: #a1c659;
+    --fg-green: #76c7b7;
+    --fg-blue: #6fb3d2;
+    --fg-pink: #d381c3;
+}
+
+.brogrammer {
+    --fg-red: #FB4934;
+    --bg-primary: #1f1f1f;
+    --bg-secondary: #f81118;
+    --fg-secondary: #ecba0f;
+    --fg-primary: #d6dbe5;
+    --fg-lime: #f3bd09;
+    --fg-green: #1081d6;
+    --fg-blue: #5350b9;
+    --fg-pink: #0f7ddb;
+}
+
+.brushtrees-dark {
+    --fg-red: #FB4934;
+    --bg-primary: #485867;
+    --bg-secondary: #5A6D7A;
+    --fg-secondary: #8299A1;
+    --fg-primary: #E3EFEF;
+    --fg-lime: #87b386;
+    --fg-green: #86b3b3;
+    --fg-blue: #868cb3;
+    --fg-pink: #b386b2;
+}
+
+.brushtrees {
+    --fg-red: #FB4934;
+    --bg-primary: #E3EFEF;
+    --bg-secondary: #C9DBDC;
+    --fg-secondary: #98AFB5;
+    --fg-primary: #485867;
+    --fg-lime: #87b386;
+    --fg-green: #86b3b3;
+    --fg-blue: #868cb3;
+    --fg-pink: #b386b2;
+}
+
+.catppuccin {
+    --fg-red: #FB4934;
+    --bg-primary: #1E1E28;
+    --bg-secondary: #1A1826;
+    --fg-secondary: #575268;
+    --fg-primary: #C9CBFF;
+    --fg-lime: #ABE9B3;
+    --fg-green: #B5E8E0;
+    --fg-blue: #96CDFB;
+    --fg-pink: #DDB6F2;
+}
+
+.chalk {
+    --fg-red: #FB4934;
+    --bg-primary: #151515;
+    --bg-secondary: #202020;
+    --fg-secondary: #505050;
+    --fg-primary: #f5f5f5;
+    --fg-lime: #acc267;
+    --fg-green: #12cfc0;
+    --fg-blue: #6fc2ef;
+    --fg-pink: #e1a3ee;
+}
+
+.circus {
+    --fg-red: #FB4934;
+    --bg-primary: #191919;
+    --bg-secondary: #202020;
+    --fg-secondary: #5f5a60;
+    --fg-primary: #ffffff;
+    --fg-lime: #84b97c;
+    --fg-green: #4bb1a7;
+    --fg-blue: #639ee4;
+    --fg-pink: #b888e2;
+}
+
+.classic-dark {
+    --fg-red: #FB4934;
+    --bg-primary: #151515;
+    --bg-secondary: #202020;
+    --fg-secondary: #505050;
+    --fg-primary: #F5F5F5;
+    --fg-lime: #90A959;
+    --fg-green: #75B5AA;
+    --fg-blue: #6A9FB5;
+    --fg-pink: #AA759F;
+}
+
+.classic-light {
+    --fg-red: #FB4934;
+    --bg-primary: #F5F5F5;
+    --bg-secondary: #E0E0E0;
+    --fg-secondary: #B0B0B0;
+    --fg-primary: #151515;
+    --fg-lime: #90A959;
+    --fg-green: #75B5AA;
+    --fg-blue: #6A9FB5;
+    --fg-pink: #AA759F;
+}
+
+.codeschool {
+    --fg-red: #FB4934;
+    --bg-primary: #232c31;
+    --bg-secondary: #1c3657;
+    --fg-secondary: #3f4944;
+    --fg-primary: #b5d8f6;
+    --fg-lime: #237986;
+    --fg-green: #b02f30;
+    --fg-blue: #484d79;
+    --fg-pink: #c59820;
+}
+
+.colors {
+    --fg-red: #FB4934;
+    --bg-primary: #111111;
+    --bg-secondary: #333333;
+    --fg-secondary: #777777;
+    --fg-primary: #ffffff;
+    --fg-lime: #2ecc40;
+    --fg-green: #7fdbff;
+    --fg-blue: #0074d9;
+    --fg-pink: #b10dc9;
+}
+
+.cupcake {
+    --fg-red: #FB4934;
+    --bg-primary: #fbf1f2;
+    --bg-secondary: #f2f1f4;
+    --fg-secondary: #bfb9c6;
+    --fg-primary: #585062;
+    --fg-lime: #A3B367;
+    --fg-green: #69A9A7;
+    --fg-blue: #7297B9;
+    --fg-pink: #BB99B4;
+}
+
+.cupertino {
+    --fg-red: #FB4934;
+    --bg-primary: #ffffff;
+    --bg-secondary: #c0c0c0;
+    --fg-secondary: #808080;
+    --fg-primary: #5e5e5e;
+    --fg-lime: #007400;
+    --fg-green: #318495;
+    --fg-blue: #0000ff;
+    --fg-pink: #a90d91;
+}
+
+.da-one-black {
+    --fg-red: #FB4934;
+    --bg-primary: #000000;
+    --bg-secondary: #282828;
+    --fg-secondary: #888888;
+    --fg-primary: #ffffff;
+    --fg-lime: #98c379;
+    --fg-green: #8af5ff;
+    --fg-blue: #6bb8ff;
+    --fg-pink: #e799ff;
+}
+
+.da-one-gray {
+    --fg-red: #FB4934;
+    --bg-primary: #181818;
+    --bg-secondary: #282828;
+    --fg-secondary: #888888;
+    --fg-primary: #ffffff;
+    --fg-lime: #98c379;
+    --fg-green: #8af5ff;
+    --fg-blue: #6bb8ff;
+    --fg-pink: #e799ff;
+}
+
+.da-one-ocean {
+    --fg-red: #FB4934;
+    --bg-primary: #171726;
+    --bg-secondary: #22273d;
+    --fg-secondary: #878d96;
+    --fg-primary: #ffffff;
+    --fg-lime: #98c379;
+    --fg-green: #8af5ff;
+    --fg-blue: #6bb8ff;
+    --fg-pink: #e799ff;
+}
+
+.da-one-paper {
+    --fg-red: #FB4934;
+    --bg-primary: #faf0dc;
+    --bg-secondary: #c8c8c8;
+    --fg-secondary: #585858;
+    --fg-primary: #000000;
+    --fg-lime: #76a85d;
+    --fg-green: #64b5a7;
+    --fg-blue: #5890f8;
+    --fg-pink: #c173d1;
+}
+
+.da-one-sea {
+    --fg-red: #FB4934;
+    --bg-primary: #22273d;
+    --bg-secondary: #374059;
+    --fg-secondary: #878d96;
+    --fg-primary: #ffffff;
+    --fg-lime: #98c379;
+    --fg-green: #8af5ff;
+    --fg-blue: #6bb8ff;
+    --fg-pink: #e799ff;
+}
+
+.da-one-white {
+    --fg-red: #FB4934;
+    --bg-primary: #ffffff;
+    --bg-secondary: #c8c8c8;
+    --fg-secondary: #585858;
+    --fg-primary: #000000;
+    --fg-lime: #76a85d;
+    --fg-green: #64b5a7;
+    --fg-blue: #5890f8;
+    --fg-pink: #c173d1;
+}
+
+.danqing {
+    --fg-red: #FB4934;
+    --bg-primary: #2d302f;
+    --bg-secondary: #434846;
+    --fg-secondary: #9da8a3;
+    --fg-primary: #fcfefd;
+    --fg-lime: #8AB361;
+    --fg-green: #30DFF3;
+    --fg-blue: #B0A4E3;
+    --fg-pink: #CCA4E3;
+}
+
+.darcula {
+    --fg-red: #FB4934;
+    --bg-primary: #2b2b2b;
+    --bg-secondary: #323232;
+    --fg-secondary: #606366;
+    --fg-primary: #ffffff;
+    --fg-lime: #6a8759;
+    --fg-green: #629755;
+    --fg-blue: #9876aa;
+    --fg-pink: #cc7832;
+}
+
+.darkmoss {
+    --fg-red: #FB4934;
+    --bg-primary: #171e1f;
+    --bg-secondary: #252c2d;
+    --fg-secondary: #555e5f;
+    --fg-primary: #e1eaef;
+    --fg-lime: #499180;
+    --fg-green: #66d9ef;
+    --fg-blue: #498091;
+    --fg-pink: #9bc0c8;
+}
+
+.darktooth {
+    --fg-red: #FB4934;
+    --bg-primary: #1D2021;
+    --bg-secondary: #32302F;
+    --fg-secondary: #665C54;
+    --fg-primary: #FDF4C1;
+    --fg-lime: #95C085;
+    --fg-green: #8BA59B;
+    --fg-blue: #0D6678;
+    --fg-pink: #8F4673;
+}
+
+.darkviolet {
+    --fg-red: #FB4934;
+    --bg-primary: #000000;
+    --bg-secondary: #231a40;
+    --fg-secondary: #593380;
+    --fg-primary: #a366ff;
+    --fg-lime: #4595e6;
+    --fg-green: #40dfff;
+    --fg-blue: #4136d9;
+    --fg-pink: #7e5ce6;
+}
+
+.decaf {
+    --fg-red: #FB4934;
+    --bg-primary: #2d2d2d;
+    --bg-secondary: #393939;
+    --fg-secondary: #777777;
+    --fg-primary: #ffffff;
+    --fg-lime: #beda78;
+    --fg-green: #bed6ff;
+    --fg-blue: #90bee1;
+    --fg-pink: #efb3f7;
+}
+
+.default-dark {
+    --fg-red: #FB4934;
+    --bg-primary: #181818;
+    --bg-secondary: #282828;
+    --fg-secondary: #585858;
+    --fg-primary: #f8f8f8;
+    --fg-lime: #a1b56c;
+    --fg-green: #86c1b9;
+    --fg-blue: #7cafc2;
+    --fg-pink: #ba8baf;
+}
+
+.default-light {
+    --fg-red: #FB4934;
+    --bg-primary: #f8f8f8;
+    --bg-secondary: #e8e8e8;
+    --fg-secondary: #b8b8b8;
+    --fg-primary: #181818;
+    --fg-lime: #a1b56c;
+    --fg-green: #86c1b9;
+    --fg-blue: #7cafc2;
+    --fg-pink: #ba8baf;
+}
+
+.dirtysea {
+    --fg-red: #FB4934;
+    --bg-primary: #e0e0e0;
+    --bg-secondary: #d0dad0;
+    --fg-secondary: #707070;
+    --fg-primary: #c4d9c4;
+    --fg-lime: #730073;
+    --fg-green: #755B00;
+    --fg-blue: #007300;
+    --fg-pink: #000090;
+}
+
+.dracula {
+    --fg-red: #FB4934;
+    --bg-primary: #282936;
+    --bg-secondary: #3a3c4e;
+    --fg-secondary: #626483;
+    --fg-primary: #f7f7fb;
+    --fg-lime: #ebff87;
+    --fg-green: #a1efe4;
+    --fg-blue: #62d6e8;
+    --fg-pink: #b45bcf;
+}
+
+.edge-dark {
+    --fg-red: #FB4934;
+    --bg-primary: #262729;
+    --bg-secondary: #88909f;
+    --fg-secondary: #3e4249;
+    --fg-primary: #3e4249;
+    --fg-lime: #a1bf78;
+    --fg-green: #5ebaa5;
+    --fg-blue: #73b3e7;
+    --fg-pink: #d390e7;
+}
+
+.edge-light {
+    --fg-red: #FB4934;
+    --bg-primary: #fafafa;
+    --bg-secondary: #7c9f4b;
+    --fg-secondary: #5e646f;
+    --fg-primary: #5e646f;
+    --fg-lime: #7c9f4b;
+    --fg-green: #509c93;
+    --fg-blue: #6587bf;
+    --fg-pink: #b870ce;
+}
+
+.eighties {
+    --fg-red: #FB4934;
+    --bg-primary: #2d2d2d;
+    --bg-secondary: #393939;
+    --fg-secondary: #747369;
+    --fg-primary: #f2f0ec;
+    --fg-lime: #99cc99;
+    --fg-green: #66cccc;
+    --fg-blue: #6699cc;
+    --fg-pink: #cc99cc;
+}
+
+.embers {
+    --fg-red: #FB4934;
+    --bg-primary: #16130F;
+    --bg-secondary: #2C2620;
+    --fg-secondary: #5A5047;
+    --fg-primary: #DBD6D1;
+    --fg-lime: #57826D;
+    --fg-green: #576D82;
+    --fg-blue: #6D5782;
+    --fg-pink: #82576D;
+}
+
+.emil {
+    --fg-red: #FB4934;
+    --bg-primary: #efefef;
+    --bg-secondary: #bebed2;
+    --fg-secondary: #7c7c98;
+    --fg-primary: #1a1a2f;
+    --fg-lime: #0073a8;
+    --fg-green: #2155d6;
+    --fg-blue: #471397;
+    --fg-pink: #6916b6;
+}
+
+.equilibrium-dark {
+    --fg-red: #FB4934;
+    --bg-primary: #0c1118;
+    --bg-secondary: #181c22;
+    --fg-secondary: #7b776e;
+    --fg-primary: #e7e2d9;
+    --fg-lime: #7f8b00;
+    --fg-green: #00948b;
+    --fg-blue: #008dd1;
+    --fg-pink: #6a7fd2;
+}
+
+.equilibrium-gray-dark {
+    --fg-red: #FB4934;
+    --bg-primary: #111111;
+    --bg-secondary: #1b1b1b;
+    --fg-secondary: #777777;
+    --fg-primary: #e2e2e2;
+    --fg-lime: #7f8b00;
+    --fg-green: #00948b;
+    --fg-blue: #008dd1;
+    --fg-pink: #6a7fd2;
+}
+
+.equilibrium-gray-light {
+    --fg-red: #FB4934;
+    --bg-primary: #f1f1f1;
+    --bg-secondary: #e2e2e2;
+    --fg-secondary: #777777;
+    --fg-primary: #1b1b1b;
+    --fg-lime: #637200;
+    --fg-green: #007a72;
+    --fg-blue: #0073b5;
+    --fg-pink: #4e66b6;
+}
+
+.equilibrium-light {
+    --fg-red: #FB4934;
+    --bg-primary: #f5f0e7;
+    --bg-secondary: #e7e2d9;
+    --fg-secondary: #73777f;
+    --fg-primary: #181c22;
+    --fg-lime: #637200;
+    --fg-green: #007a72;
+    --fg-blue: #0073b5;
+    --fg-pink: #4e66b6;
+}
+
+.espresso {
+    --fg-red: #FB4934;
+    --bg-primary: #2d2d2d;
+    --bg-secondary: #393939;
+    --fg-secondary: #777777;
+    --fg-primary: #ffffff;
+    --fg-lime: #a5c261;
+    --fg-green: #bed6ff;
+    --fg-blue: #6c99bb;
+    --fg-pink: #d197d9;
+}
+
+.eva-dim {
+    --fg-red: #FB4934;
+    --bg-primary: #2a3b4d;
+    --bg-secondary: #3d566f;
+    --fg-secondary: #55799c;
+    --fg-primary: #ffffff;
+    --fg-lime: #5de561;
+    --fg-green: #4b8f77;
+    --fg-blue: #1ae1dc;
+    --fg-pink: #9c6cd3;
+}
+
+.eva {
+    --fg-red: #FB4934;
+    --bg-primary: #2a3b4d;
+    --bg-secondary: #3d566f;
+    --fg-secondary: #55799c;
+    --fg-primary: #ffffff;
+    --fg-lime: #66ff66;
+    --fg-green: #4b8f77;
+    --fg-blue: #15f4ee;
+    --fg-pink: #9c6cd3;
+}
+
+.everforest {
+    --fg-red: #FB4934;
+    --bg-primary: #2b3339;
+    --bg-secondary: #323c41;
+    --fg-secondary: #868d80;
+    --fg-primary: #fff9e8;
+    --fg-blue: #7fbbb3;
+    --fg-pink: #d699b6;
+    --fg-green: #83c092;
+    --fg-lime: #a7c080;
+}
+
+.flat {
+    --fg-red: #FB4934;
+    --bg-primary: #2C3E50;
+    --bg-secondary: #34495E;
+    --fg-secondary: #95A5A6;
+    --fg-primary: #ECF0F1;
+    --fg-lime: #2ECC71;
+    --fg-green: #1ABC9C;
+    --fg-blue: #3498DB;
+    --fg-pink: #9B59B6;
+}
+
+.framer {
+    --fg-red: #FB4934;
+    --bg-primary: #181818;
+    --bg-secondary: #151515;
+    --fg-secondary: #747474;
+    --fg-primary: #EEEEEE;
+    --fg-lime: #32CCDC;
+    --fg-green: #ACDDFD;
+    --fg-blue: #20BCFC;
+    --fg-pink: #BA8CFC;
+}
+
+.fruit-soda {
+    --fg-red: #FB4934;
+    --bg-primary: #f1ecf1;
+    --bg-secondary: #e0dee0;
+    --fg-secondary: #b5b4b6;
+    --fg-primary: #2d2c2c;
+    --fg-lime: #47f74c;
+    --fg-green: #0f9cfd;
+    --fg-blue: #2931df;
+    --fg-pink: #611fce;
+}
+
+.gigavolt {
+    --fg-red: #FB4934;
+    --bg-primary: #202126;
+    --bg-secondary: #2d303d;
+    --fg-secondary: #a1d2e6;
+    --fg-primary: #f2fbff;
+    --fg-lime: #f2e6a9;
+    --fg-green: #fb6acb;
+    --fg-blue: #40bfff;
+    --fg-pink: #ae94f9;
+}
+
+.github {
+    --fg-red: #FB4934;
+    --bg-primary: #ffffff;
+    --bg-secondary: #f5f5f5;
+    --fg-secondary: #969896;
+    --fg-primary: #ffffff;
+    --fg-lime: #183691;
+    --fg-green: #183691;
+    --fg-blue: #795da3;
+    --fg-pink: #a71d5d;
+}
+
+.google-dark {
+    --fg-red: #FB4934;
+    --bg-primary: #1d1f21;
+    --bg-secondary: #282a2e;
+    --fg-secondary: #969896;
+    --fg-primary: #ffffff;
+    --fg-lime: #198844;
+    --fg-green: #3971ED;
+    --fg-blue: #3971ED;
+    --fg-pink: #A36AC7;
+}
+
+.google-light {
+    --fg-red: #FB4934;
+    --bg-primary: #ffffff;
+    --bg-secondary: #e0e0e0;
+    --fg-secondary: #b4b7b4;
+    --fg-primary: #1d1f21;
+    --fg-lime: #198844;
+    --fg-green: #3971ED;
+    --fg-blue: #3971ED;
+    --fg-pink: #A36AC7;
+}
+
+.gotham {
+    --fg-red: #FB4934;
+    --bg-primary: #0c1014;
+    --bg-secondary: #11151c;
+    --fg-secondary: #0a3749;
+    --fg-primary: #d3ebe9;
+    --fg-lime: #33859E;
+    --fg-green: #2aa889;
+    --fg-blue: #195466;
+    --fg-pink: #888ca6;
+}
+
+.grayscale-dark {
+    --fg-red: #FB4934;
+    --bg-primary: #101010;
+    --bg-secondary: #252525;
+    --fg-secondary: #525252;
+    --fg-primary: #f7f7f7;
+    --fg-lime: #8e8e8e;
+    --fg-green: #868686;
+    --fg-blue: #686868;
+    --fg-pink: #747474;
+}
+
+.grayscale-light {
+    --fg-red: #FB4934;
+    --bg-primary: #f7f7f7;
+    --bg-secondary: #e3e3e3;
+    --fg-secondary: #ababab;
+    --fg-primary: #101010;
+    --fg-lime: #8e8e8e;
+    --fg-green: #868686;
+    --fg-blue: #686868;
+    --fg-pink: #747474;
+}
+
+.greenscreen {
+    --fg-red: #FB4934;
+    --bg-primary: #001100;
+    --bg-secondary: #003300;
+    --fg-secondary: #007700;
+    --fg-primary: #00ff00;
+    --fg-lime: #00bb00;
+    --fg-green: #005500;
+    --fg-blue: #009900;
+    --fg-pink: #00bb00;
+}
+
+.gruber {
+    --fg-red: #FB4934;
+    --bg-primary: #181818;
+    --bg-secondary: #453d41;
+    --fg-secondary: #52494e;
+    --fg-primary: #e4e4ef;
+    --fg-lime: #73c936;
+    --fg-green: #95a99f;
+    --fg-blue: #96a6c8;
+    --fg-pink: #9e95c7;
+}
+
+.gruvbox-dark-hard {
+    --fg-red: #FB4934;
+    --bg-primary: #1d2021;
+    --bg-secondary: #3c3836;
+    --fg-secondary: #665c54;
+    --fg-primary: #fbf1c7;
+    --fg-lime: #b8bb26;
+    --fg-green: #8ec07c;
+    --fg-blue: #83a598;
+    --fg-pink: #d3869b;
+}
+
+.gruvbox-dark-medium {
+    --fg-red: #FB4934;
+    --bg-primary: #282828;
+    --bg-secondary: #3c3836;
+    --fg-secondary: #665c54;
+    --fg-primary: #fbf1c7;
+    --fg-lime: #b8bb26;
+    --fg-green: #8ec07c;
+    --fg-blue: #83a598;
+    --fg-pink: #d3869b;
+}
+
+.gruvbox-dark-pale {
+    --fg-red: #FB4934;
+    --bg-primary: #262626;
+    --bg-secondary: #3a3a3a;
+    --fg-secondary: #8a8a8a;
+    --fg-primary: #ebdbb2;
+    --fg-lime: #afaf00;
+    --fg-green: #85ad85;
+    --fg-blue: #83adad;
+    --fg-pink: #d485ad;
+}
+
+.gruvbox-dark-soft {
+    --fg-red: #FB4934;
+    --bg-primary: #32302f;
+    --bg-secondary: #3c3836;
+    --fg-secondary: #665c54;
+    --fg-primary: #fbf1c7;
+    --fg-lime: #b8bb26;
+    --fg-green: #8ec07c;
+    --fg-blue: #83a598;
+    --fg-pink: #d3869b;
+}
+
+.gruvbox-light-hard {
+    --fg-red: #FB4934;
+    --bg-primary: #f9f5d7;
+    --bg-secondary: #ebdbb2;
+    --fg-secondary: #bdae93;
+    --fg-primary: #282828;
+    --fg-lime: #79740e;
+    --fg-green: #427b58;
+    --fg-blue: #076678;
+    --fg-pink: #8f3f71;
+}
+
+.gruvbox-light-medium {
+    --fg-red: #FB4934;
+    --bg-primary: #fbf1c7;
+    --bg-secondary: #ebdbb2;
+    --fg-secondary: #bdae93;
+    --fg-primary: #282828;
+    --fg-lime: #79740e;
+    --fg-green: #427b58;
+    --fg-blue: #076678;
+    --fg-pink: #8f3f71;
+}
+
+.gruvbox-light-soft {
+    --fg-red: #FB4934;
+    --bg-primary: #f2e5bc;
+    --bg-secondary: #ebdbb2;
+    --fg-secondary: #bdae93;
+    --fg-primary: #282828;
+    --fg-lime: #79740e;
+    --fg-green: #427b58;
+    --fg-blue: #076678;
+    --fg-pink: #8f3f71;
+}
+
+.gruvbox-material-dark-hard {
+    --fg-red: #FB4934;
+    --bg-primary: #202020;
+    --bg-secondary: #2a2827;
+    --fg-secondary: #5a524c;
+    --fg-primary: #fbf1c7;
+    --fg-lime: #a9b665;
+    --fg-green: #89b482;
+    --fg-blue: #7daea3;
+    --fg-pink: #d3869b;
+}
+
+.gruvbox-material-dark-medium {
+    --fg-red: #FB4934;
+    --bg-primary: #292828;
+    --bg-secondary: #32302f;
+    --fg-secondary: #665c54;
+    --fg-primary: #fbf1c7;
+    --fg-lime: #a9b665;
+    --fg-green: #89b482;
+    --fg-blue: #7daea3;
+    --fg-pink: #d3869b;
+}
+
+.gruvbox-material-dark-soft {
+    --fg-red: #FB4934;
+    --bg-primary: #32302f;
+    --bg-secondary: #3c3836;
+    --fg-secondary: #7c6f64;
+    --fg-primary: #fbf1c7;
+    --fg-lime: #a9b665;
+    --fg-green: #89b482;
+    --fg-blue: #7daea3;
+    --fg-pink: #d3869b;
+}
+
+.gruvbox-material-light-hard {
+    --fg-red: #FB4934;
+    --bg-primary: #f9f5d7;
+    --bg-secondary: #fbf1c7;
+    --fg-secondary: #a89984;
+    --fg-primary: #282828;
+    --fg-lime: #6c782e;
+    --fg-green: #4c7a5d;
+    --fg-blue: #45707a;
+    --fg-pink: #945e80;
+}
+
+.gruvbox-material-light-medium {
+    --fg-red: #FB4934;
+    --bg-primary: #fbf1c7;
+    --bg-secondary: #f2e5bc;
+    --fg-secondary: #bdae93;
+    --fg-primary: #282828;
+    --fg-lime: #6c782e;
+    --fg-green: #4c7a5d;
+    --fg-blue: #45707a;
+    --fg-pink: #945e80;
+}
+
+.gruvbox-material-light-soft {
+    --fg-red: #FB4934;
+    --bg-primary: #f2e5bc;
+    --bg-secondary: #ebdbb2;
+    --fg-secondary: #a89984;
+    --fg-primary: #282828;
+    --fg-lime: #6c782e;
+    --fg-green: #4c7a5d;
+    --fg-blue: #45707a;
+    --fg-pink: #945e80;
+}
+
+.hardcore {
+    --fg-red: #FB4934;
+    --bg-primary: #212121;
+    --bg-secondary: #303030;
+    --fg-secondary: #4A4A4A;
+    --fg-primary: #ffffff;
+    --fg-lime: #a6e22e;
+    --fg-green: #708387;
+    --fg-blue: #66d9ef;
+    --fg-pink: #9e6ffe;
+}
+
+.harmonic-dark {
+    --fg-red: #FB4934;
+    --bg-primary: #0b1c2c;
+    --bg-secondary: #223b54;
+    --fg-secondary: #627e99;
+    --fg-primary: #f7f9fb;
+    --fg-lime: #56bf8b;
+    --fg-green: #568bbf;
+    --fg-blue: #8b56bf;
+    --fg-pink: #bf568b;
+}
+
+.harmonic-light {
+    --fg-red: #FB4934;
+    --bg-primary: #f7f9fb;
+    --bg-secondary: #e5ebf1;
+    --fg-secondary: #aabcce;
+    --fg-primary: #0b1c2c;
+    --fg-lime: #56bf8b;
+    --fg-green: #568bbf;
+    --fg-blue: #8b56bf;
+    --fg-pink: #bf568b;
+}
+
+.heetch-light {
+    --fg-red: #FB4934;
+    --bg-primary: #feffff;
+    --bg-secondary: #392551;
+    --fg-secondary: #9c92a8;
+    --fg-primary: #190134;
+    --fg-lime: #f80059;
+    --fg-green: #c33678;
+    --fg-blue: #47f9f5;
+    --fg-pink: #bd0152;
+}
+
+.heetch {
+    --fg-red: #FB4934;
+    --bg-primary: #190134;
+    --bg-secondary: #392551;
+    --fg-secondary: #7B6D8B;
+    --fg-primary: #FEFFFF;
+    --fg-lime: #C33678;
+    --fg-green: #F80059;
+    --fg-blue: #BD0152;
+    --fg-pink: #82034C;
+}
+
+.helios {
+    --fg-red: #FB4934;
+    --bg-primary: #1d2021;
+    --bg-secondary: #383c3e;
+    --fg-secondary: #6f7579;
+    --fg-primary: #e5e5e5;
+    --fg-lime: #88b92d;
+    --fg-green: #1ba595;
+    --fg-blue: #1e8bac;
+    --fg-pink: #be4264;
+}
+
+.hopscotch {
+    --fg-red: #FB4934;
+    --bg-primary: #322931;
+    --bg-secondary: #433b42;
+    --fg-secondary: #797379;
+    --fg-primary: #ffffff;
+    --fg-lime: #8fc13e;
+    --fg-green: #149b93;
+    --fg-blue: #1290bf;
+    --fg-pink: #c85e7c;
+}
+
+.horizon-dark {
+    --fg-red: #FB4934;
+    --bg-primary: #1C1E26;
+    --bg-secondary: #232530;
+    --fg-secondary: #6F6F70;
+    --fg-primary: #E3E6EE;
+    --fg-lime: #EFAF8E;
+    --fg-green: #24A8B4;
+    --fg-blue: #DF5273;
+    --fg-pink: #B072D1;
+}
+
+.horizon-light {
+    --fg-red: #FB4934;
+    --bg-primary: #FDF0ED;
+    --bg-secondary: #FADAD1;
+    --fg-secondary: #BDB3B1;
+    --fg-primary: #201C1D;
+    --fg-lime: #94E1B0;
+    --fg-green: #DC3318;
+    --fg-blue: #DA103F;
+    --fg-pink: #1D8991;
+}
+
+.horizon-terminal-dark {
+    --fg-red: #FB4934;
+    --bg-primary: #1C1E26;
+    --bg-secondary: #232530;
+    --fg-secondary: #6F6F70;
+    --fg-primary: #E3E6EE;
+    --fg-lime: #29D398;
+    --fg-green: #59E1E3;
+    --fg-blue: #26BBD9;
+    --fg-pink: #EE64AC;
+}
+
+.horizon-terminal-light {
+    --fg-red: #FB4934;
+    --bg-primary: #FDF0ED;
+    --bg-secondary: #FADAD1;
+    --fg-secondary: #BDB3B1;
+    --fg-primary: #201C1D;
+    --fg-lime: #29D398;
+    --fg-green: #59E1E3;
+    --fg-blue: #26BBD9;
+    --fg-pink: #EE64AC;
+}
+
+.humanoid-dark {
+    --fg-red: #FB4934;
+    --bg-primary: #232629;
+    --bg-secondary: #333b3d;
+    --fg-secondary: #60615d;
+    --fg-primary: #fcfcfc;
+    --fg-lime: #02d849;
+    --fg-green: #0dd9d6;
+    --fg-blue: #00a6fb;
+    --fg-pink: #f15ee3;
+}
+
+.humanoid-light {
+    --fg-red: #FB4934;
+    --bg-primary: #f8f8f2;
+    --bg-secondary: #efefe9;
+    --fg-secondary: #c0c0bd;
+    --fg-primary: #070708;
+    --fg-lime: #388e3c;
+    --fg-green: #008e8e;
+    --fg-blue: #0082c9;
+    --fg-pink: #700f98;
+}
+
+.ia-dark {
+    --fg-red: #FB4934;
+    --bg-primary: #1a1a1a;
+    --bg-secondary: #222222;
+    --fg-secondary: #767676;
+    --fg-primary: #f8f8f8;
+    --fg-lime: #83a471;
+    --fg-green: #7c9cae;
+    --fg-blue: #8eccdd;
+    --fg-pink: #b98eb2;
+}
+
+.ia-light {
+    --fg-red: #FB4934;
+    --bg-primary: #f6f6f6;
+    --bg-secondary: #dedede;
+    --fg-secondary: #898989;
+    --fg-primary: #f8f8f8;
+    --fg-lime: #38781c;
+    --fg-green: #2d6bb1;
+    --fg-blue: #48bac2;
+    --fg-pink: #a94598;
+}
+
+.icy {
+    --fg-red: #FB4934;
+    --bg-primary: #021012;
+    --bg-secondary: #031619;
+    --fg-secondary: #052e34;
+    --fg-primary: #109cb0;
+    --fg-lime: #4dd0e1;
+    --fg-green: #26c6da;
+    --fg-blue: #00bcd4;
+    --fg-pink: #00acc1;
+}
+
+.irblack {
+    --fg-red: #FB4934;
+    --bg-primary: #000000;
+    --bg-secondary: #242422;
+    --fg-secondary: #6c6c66;
+    --fg-primary: #fdfbee;
+    --fg-lime: #a8ff60;
+    --fg-green: #c6c5fe;
+    --fg-blue: #96cbfe;
+    --fg-pink: #ff73fd;
+}
+
+.isotope {
+    --fg-red: #FB4934;
+    --bg-primary: #000000;
+    --bg-secondary: #404040;
+    --fg-secondary: #808080;
+    --fg-primary: #ffffff;
+    --fg-lime: #33ff00;
+    --fg-green: #00ffff;
+    --fg-blue: #0066ff;
+    --fg-pink: #cc00ff;
+}
+
+.kanagawa {
+    --fg-red: #FB4934;
+    --bg-primary: #1F1F28;
+    --bg-secondary: #16161D;
+    --fg-secondary: #54546D;
+    --fg-primary: #717C7C;
+    --fg-lime: #76946A;
+    --fg-green: #6A9589;
+    --fg-blue: #7E9CD8;
+    --fg-pink: #957FB8;
+}
+
+.katy {
+    --fg-red: #FB4934;
+    --bg-primary: #292d3e;
+    --bg-secondary: #444267;
+    --fg-secondary: #676e95;
+    --fg-primary: #ffffff;
+    --fg-lime: #78c06e;
+    --fg-green: #83b7e5;
+    --fg-blue: #82aaff;
+    --fg-pink: #c792ea;
+}
+
+.kimber {
+    --fg-red: #FB4934;
+    --bg-primary: #222222;
+    --bg-secondary: #313131;
+    --fg-secondary: #644646;
+    --fg-primary: #FFFFE6;
+    --fg-lime: #99C899;
+    --fg-green: #78B4B4;
+    --fg-blue: #537C9C;
+    --fg-pink: #86CACD;
+}
+
+.lime {
+    --fg-red: #FB4934;
+    --bg-primary: #1a1a2f;
+    --bg-secondary: #202030;
+    --fg-secondary: #313140;
+    --fg-primary: #fff8e1;
+    --fg-lime: #8cd97c;
+    --fg-green: #4cad83;
+    --fg-blue: #2b926f;
+    --fg-pink: #1b825f;
+}
+
+.macintosh {
+    --fg-red: #FB4934;
+    --bg-primary: #000000;
+    --bg-secondary: #404040;
+    --fg-secondary: #808080;
+    --fg-primary: #ffffff;
+    --fg-lime: #1fb714;
+    --fg-green: #02abea;
+    --fg-blue: #0000d3;
+    --fg-pink: #4700a5;
+}
+
+.marrakesh {
+    --fg-red: #FB4934;
+    --bg-primary: #201602;
+    --bg-secondary: #302e00;
+    --fg-secondary: #6c6823;
+    --fg-primary: #faf0a5;
+    --fg-lime: #18974e;
+    --fg-green: #75a738;
+    --fg-blue: #477ca1;
+    --fg-pink: #8868b3;
+}
+
+.materia {
+    --fg-red: #FB4934;
+    --bg-primary: #263238;
+    --bg-secondary: #2C393F;
+    --fg-secondary: #707880;
+    --fg-primary: #FFFFFF;
+    --fg-lime: #8BD649;
+    --fg-green: #80CBC4;
+    --fg-blue: #89DDFF;
+    --fg-pink: #82AAFF;
+}
+
+.material-darker {
+    --fg-red: #FB4934;
+    --bg-primary: #212121;
+    --bg-secondary: #303030;
+    --fg-secondary: #4A4A4A;
+    --fg-primary: #FFFFFF;
+    --fg-lime: #C3E88D;
+    --fg-green: #89DDFF;
+    --fg-blue: #82AAFF;
+    --fg-pink: #C792EA;
+}
+
+.material-lighter {
+    --fg-red: #FB4934;
+    --bg-primary: #FAFAFA;
+    --bg-secondary: #E7EAEC;
+    --fg-secondary: #CCD7DA;
+    --fg-primary: #FFFFFF;
+    --fg-lime: #91B859;
+    --fg-green: #39ADB5;
+    --fg-blue: #6182B8;
+    --fg-pink: #7C4DFF;
+}
+
+.material-palenight {
+    --fg-red: #FB4934;
+    --bg-primary: #292D3E;
+    --bg-secondary: #444267;
+    --fg-secondary: #676E95;
+    --fg-primary: #FFFFFF;
+    --fg-lime: #C3E88D;
+    --fg-green: #89DDFF;
+    --fg-blue: #82AAFF;
+    --fg-pink: #C792EA;
+}
+
+.material-vivid {
+    --fg-red: #FB4934;
+    --bg-primary: #202124;
+    --bg-secondary: #27292c;
+    --fg-secondary: #44464d;
+    --fg-primary: #ffffff;
+    --fg-lime: #00e676;
+    --fg-green: #00bcd4;
+    --fg-blue: #2196f3;
+    --fg-pink: #673ab7;
+}
+
+.material {
+    --fg-red: #FB4934;
+    --bg-primary: #263238;
+    --bg-secondary: #2E3C43;
+    --fg-secondary: #546E7A;
+    --fg-primary: #FFFFFF;
+    --fg-lime: #C3E88D;
+    --fg-green: #89DDFF;
+    --fg-blue: #82AAFF;
+    --fg-pink: #C792EA;
+}
+
+.mellow-purple {
+    --fg-red: #FB4934;
+    --bg-primary: #1e0528;
+    --bg-secondary: #1A092D;
+    --fg-secondary: #320f55;
+    --fg-primary: #f8c0ff;
+    --fg-lime: #05cb0d;
+    --fg-green: #b900b1;
+    --fg-blue: #550068;
+    --fg-pink: #8991bb;
+}
+
+.mexico-light {
+    --fg-red: #FB4934;
+    --bg-primary: #f8f8f8;
+    --bg-secondary: #e8e8e8;
+    --fg-secondary: #b8b8b8;
+    --fg-primary: #181818;
+    --fg-lime: #538947;
+    --fg-green: #4b8093;
+    --fg-blue: #7cafc2;
+    --fg-pink: #96609e;
+}
+
+.mocha {
+    --fg-red: #FB4934;
+    --bg-primary: #3B3228;
+    --bg-secondary: #534636;
+    --fg-secondary: #7e705a;
+    --fg-primary: #f5eeeb;
+    --fg-lime: #beb55b;
+    --fg-green: #7bbda4;
+    --fg-blue: #8ab3b5;
+    --fg-pink: #a89bb9;
+}
+
+.monokai {
+    --fg-red: #FB4934;
+    --bg-primary: #272822;
+    --bg-secondary: #383830;
+    --fg-secondary: #75715e;
+    --fg-primary: #f9f8f5;
+    --fg-lime: #a6e22e;
+    --fg-green: #a1efe4;
+    --fg-blue: #66d9ef;
+    --fg-pink: #ae81ff;
+}
+
+.nebula {
+    --fg-red: #FB4934;
+    --bg-primary: #22273b;
+    --bg-secondary: #414f60;
+    --fg-secondary: #6e6f72;
+    --fg-primary: #8dbdaa;
+    --fg-lime: #6562a8;
+    --fg-green: #226f68;
+    --fg-blue: #4d6bb6;
+    --fg-pink: #716cae;
+}
+
+.nord {
+    --fg-red: #FB4934;
+    --bg-primary: #2E3440;
+    --bg-secondary: #3B4252;
+    --fg-secondary: #4C566A;
+    --fg-primary: #8FBCBB;
+    --fg-lime: #A3BE8C;
+    --fg-green: #88C0D0;
+    --fg-blue: #81A1C1;
+    --fg-pink: #B48EAD;
+}
+
+.nova {
+    --fg-red: #FB4934;
+    --bg-primary: #3C4C55;
+    --bg-secondary: #556873;
+    --fg-secondary: #899BA6;
+    --fg-primary: #556873;
+    --fg-lime: #7FC1CA;
+    --fg-green: #F2C38F;
+    --fg-blue: #83AFE5;
+    --fg-pink: #9A93E1;
+}
+
+.ocean {
+    --fg-red: #FB4934;
+    --bg-primary: #2b303b;
+    --bg-secondary: #343d46;
+    --fg-secondary: #65737e;
+    --fg-primary: #eff1f5;
+    --fg-lime: #a3be8c;
+    --fg-green: #96b5b4;
+    --fg-blue: #8fa1b3;
+    --fg-pink: #b48ead;
+}
+
+.oceanicnext {
+    --fg-red: #FB4934;
+    --bg-primary: #1B2B34;
+    --bg-secondary: #343D46;
+    --fg-secondary: #65737E;
+    --fg-primary: #D8DEE9;
+    --fg-lime: #99C794;
+    --fg-green: #5FB3B3;
+    --fg-blue: #6699CC;
+    --fg-pink: #C594C5;
+}
+
+.one-light {
+    --fg-red: #FB4934;
+    --bg-primary: #fafafa;
+    --bg-secondary: #f0f0f1;
+    --fg-secondary: #a0a1a7;
+    --fg-primary: #090a0b;
+    --fg-lime: #50a14f;
+    --fg-green: #0184bc;
+    --fg-blue: #4078f2;
+    --fg-pink: #a626a4;
+}
+
+.onedark {
+    --fg-red: #FB4934;
+    --bg-primary: #282c34;
+    --bg-secondary: #353b45;
+    --fg-secondary: #545862;
+    --fg-primary: #c8ccd4;
+    --fg-lime: #98c379;
+    --fg-green: #56b6c2;
+    --fg-blue: #61afef;
+    --fg-pink: #c678dd;
+}
+
+.outrun-dark {
+    --fg-red: #FB4934;
+    --bg-primary: #00002A;
+    --bg-secondary: #20204A;
+    --fg-secondary: #50507A;
+    --fg-primary: #F5F5FF;
+    --fg-lime: #59F176;
+    --fg-green: #0EF0F0;
+    --fg-blue: #66B0FF;
+    --fg-pink: #F10596;
+}
+
+.pandora {
+    --fg-red: #FB4934;
+    --bg-primary: #131213;
+    --bg-secondary: #2f1823;
+    --fg-secondary: #ffbee3;
+    --fg-primary: #632227;
+    --fg-lime: #9ddf69;
+    --fg-green: #714ca6;
+    --fg-blue: #008080;
+    --fg-pink: #a24030;
+}
+
+.papercolor-dark {
+    --fg-red: #FB4934;
+    --bg-primary: #1c1c1c;
+    --bg-secondary: #af005f;
+    --fg-secondary: #d7af5f;
+    --fg-primary: #d0d0d0;
+    --fg-lime: #af87d7;
+    --fg-green: #ffaf00;
+    --fg-blue: #ff5faf;
+    --fg-pink: #00afaf;
+}
+
+.papercolor-light {
+    --fg-red: #FB4934;
+    --bg-primary: #eeeeee;
+    --bg-secondary: #af0000;
+    --fg-secondary: #5f8700;
+    --fg-primary: #878787;
+    --fg-lime: #8700af;
+    --fg-green: #d75f00;
+    --fg-blue: #d75f00;
+    --fg-pink: #005faf;
+}
+
+.paraiso {
+    --fg-red: #FB4934;
+    --bg-primary: #2f1e2e;
+    --bg-secondary: #41323f;
+    --fg-secondary: #776e71;
+    --fg-primary: #e7e9db;
+    --fg-lime: #48b685;
+    --fg-green: #5bc4bf;
+    --fg-blue: #06b6ef;
+    --fg-pink: #815ba4;
+}
+
+.pasque {
+    --fg-red: #FB4934;
+    --bg-primary: #271C3A;
+    --bg-secondary: #100323;
+    --fg-secondary: #5D5766;
+    --fg-primary: #BBAADD;
+    --fg-lime: #C6914B;
+    --fg-green: #7263AA;
+    --fg-blue: #8E7DC6;
+    --fg-pink: #953B9D;
+}
+
+.phd {
+    --fg-red: #FB4934;
+    --bg-primary: #061229;
+    --bg-secondary: #2a3448;
+    --fg-secondary: #717885;
+    --fg-primary: #ffffff;
+    --fg-lime: #99bf52;
+    --fg-green: #72b9bf;
+    --fg-blue: #5299bf;
+    --fg-pink: #9989cc;
+}
+
+.pico {
+    --fg-red: #FB4934;
+    --bg-primary: #000000;
+    --bg-secondary: #1d2b53;
+    --fg-secondary: #008751;
+    --fg-primary: #fff1e8;
+    --fg-lime: #00e756;
+    --fg-green: #29adff;
+    --fg-blue: #83769c;
+    --fg-pink: #ff77a8;
+}
+
+.pinky {
+    --fg-red: #FB4934;
+    --bg-primary: #171517;
+    --bg-secondary: #1b181b;
+    --fg-secondary: #383338;
+    --fg-primary: #f7f3f7;
+    --fg-lime: #ff0066;
+    --fg-green: #6600ff;
+    --fg-blue: #00ffff;
+    --fg-pink: #007fff;
+}
+
+.pop {
+    --fg-red: #FB4934;
+    --bg-primary: #000000;
+    --bg-secondary: #202020;
+    --fg-secondary: #505050;
+    --fg-primary: #ffffff;
+    --fg-lime: #37b349;
+    --fg-green: #00aabb;
+    --fg-blue: #0e5a94;
+    --fg-pink: #b31e8d;
+}
+
+.porple {
+    --fg-red: #FB4934;
+    --bg-primary: #292c36;
+    --bg-secondary: #333344;
+    --fg-secondary: #65568a;
+    --fg-primary: #f8f8f8;
+    --fg-lime: #95c76f;
+    --fg-green: #64878f;
+    --fg-blue: #8485ce;
+    --fg-pink: #b74989;
+}
+
+.primer-dark-dimmed {
+    --fg-red: #FB4934;
+    --bg-primary: #1c2128;
+    --bg-secondary: #373e47;
+    --fg-secondary: #545d68;
+    --fg-primary: #cdd9e5;
+    --fg-lime: #57ab5a;
+    --fg-green: #96d0ff;
+    --fg-blue: #539bf5;
+    --fg-pink: #e275ad;
+}
+
+.primer-dark {
+    --fg-red: #FB4934;
+    --bg-primary: #010409;
+    --bg-secondary: #21262d;
+    --fg-secondary: #484f58;
+    --fg-primary: #f0f6fc;
+    --fg-lime: #3fb950;
+    --fg-green: #a5d6ff;
+    --fg-blue: #58a6ff;
+    --fg-pink: #f778ba;
+}
+
+.primer-light {
+    --fg-red: #FB4934;
+    --bg-primary: #fafbfc;
+    --bg-secondary: #e1e4e8;
+    --fg-secondary: #959da5;
+    --fg-primary: #1b1f23;
+    --fg-lime: #28a745;
+    --fg-green: #79b8ff;
+    --fg-blue: #0366d6;
+    --fg-pink: #ea4aaa;
+}
+
+.purpledream {
+    --fg-red: #FB4934;
+    --bg-primary: #100510;
+    --bg-secondary: #302030;
+    --fg-secondary: #605060;
+    --fg-primary: #fff0ff;
+    --fg-lime: #14CC64;
+    --fg-green: #0075B0;
+    --fg-blue: #00A0F0;
+    --fg-pink: #B000D0;
+}
+
+.qualia {
+    --fg-red: #FB4934;
+    --bg-primary: #101010;
+    --bg-secondary: #454545;
+    --fg-secondary: #454545;
+    --fg-primary: #454545;
+    --fg-lime: #80C990;
+    --fg-green: #C8C874;
+    --fg-blue: #50CACD;
+    --fg-pink: #E0AF85;
+}
+
+.railscasts {
+    --fg-red: #FB4934;
+    --bg-primary: #2b2b2b;
+    --bg-secondary: #272935;
+    --fg-secondary: #5a647e;
+    --fg-primary: #f9f7f3;
+    --fg-lime: #a5c261;
+    --fg-green: #519f50;
+    --fg-blue: #6d9cbe;
+    --fg-pink: #b6b3eb;
+}
+
+.rebecca {
+    --fg-red: #FB4934;
+    --bg-primary: #292a44;
+    --bg-secondary: #663399;
+    --fg-secondary: #666699;
+    --fg-primary: #53495d;
+    --fg-lime: #6dfedf;
+    --fg-green: #8eaee0;
+    --fg-blue: #2de0a7;
+    --fg-pink: #7aa5ff;
+}
+
+.rose-pine-dawn {
+    --fg-red: #FB4934;
+    --bg-primary: #faf4ed;
+    --bg-secondary: #fffaf3;
+    --fg-secondary: #9893a5;
+    --fg-primary: #26233a;
+    --fg-lime: #d7827e;
+    --fg-green: #286983;
+    --fg-blue: #56949f;
+    --fg-pink: #907aa9;
+}
+
+.rose-pine-moon {
+    --fg-red: #FB4934;
+    --bg-primary: #232136;
+    --bg-secondary: #2a273f;
+    --fg-secondary: #59546d;
+    --fg-primary: #d9d7e1;
+    --fg-lime: #ea9a97;
+    --fg-green: #3e8fb0;
+    --fg-blue: #9ccfd8;
+    --fg-pink: #c4a7e7;
+}
+
+.rose-pine {
+    --fg-red: #FB4934;
+    --bg-primary: #191724;
+    --bg-secondary: #1f1d2e;
+    --fg-secondary: #555169;
+    --fg-primary: #c5c3ce;
+    --fg-lime: #ebbcba;
+    --fg-green: #31748f;
+    --fg-blue: #9ccfd8;
+    --fg-pink: #c4a7e7;
+}
+
+.sagelight {
+    --fg-red: #FB4934;
+    --bg-primary: #f8f8f8;
+    --bg-secondary: #e8e8e8;
+    --fg-secondary: #b8b8b8;
+    --fg-primary: #181818;
+    --fg-lime: #a0d2c8;
+    --fg-green: #a2d6f5;
+    --fg-blue: #a0a7d2;
+    --fg-pink: #c8a0d2;
+}
+
+.sakura {
+    --fg-red: #FB4934;
+    --bg-primary: #feedf3;
+    --bg-secondary: #f8e2e7;
+    --fg-secondary: #755f64;
+    --fg-primary: #33292b;
+    --fg-lime: #2e916d;
+    --fg-green: #1d8991;
+    --fg-blue: #006e93;
+    --fg-pink: #5e2180;
+}
+
+.sandcastle {
+    --fg-red: #FB4934;
+    --bg-primary: #282c34;
+    --bg-secondary: #2c323b;
+    --fg-secondary: #665c54;
+    --fg-primary: #fdf4c1;
+    --fg-lime: #528b8b;
+    --fg-green: #83a598;
+    --fg-blue: #83a598;
+    --fg-pink: #d75f5f;
+}
+
+.seti {
+    --fg-red: #FB4934;
+    --bg-primary: #151718;
+    --bg-secondary: #282a2b;
+    --fg-secondary: #41535B;
+    --fg-primary: #ffffff;
+    --fg-lime: #9fca56;
+    --fg-green: #55dbbe;
+    --fg-blue: #55b5db;
+    --fg-pink: #a074c4;
+}
+
+.shades-of-purple {
+    --fg-red: #FB4934;
+    --bg-primary: #1e1e3f;
+    --bg-secondary: #43d426;
+    --fg-secondary: #808080;
+    --fg-primary: #ffffff;
+    --fg-lime: #3ad900;
+    --fg-green: #00c5c7;
+    --fg-blue: #6943ff;
+    --fg-pink: #ff2c70;
+}
+
+.shadesmear-dark {
+    --fg-red: #FB4934;
+    --bg-primary: #232323;
+    --bg-secondary: #1C1C1C;
+    --fg-secondary: #C0C0C0;
+    --fg-primary: #1C1C1C;
+    --fg-lime: #71983B;
+    --fg-green: #C57D42;
+    --fg-blue: #376388;
+    --fg-pink: #D7AB54;
+}
+
+.shadesmear-light {
+    --fg-red: #FB4934;
+    --bg-primary: #DBDBDB;
+    --bg-secondary: #E4E4E4;
+    --fg-secondary: #4E4E4E;
+    --fg-primary: #E4E4E4;
+    --fg-lime: #71983B;
+    --fg-green: #C57D42;
+    --fg-blue: #376388;
+    --fg-pink: #D7AB54;
+}
+
+.shapeshifter {
+    --fg-red: #FB4934;
+    --bg-primary: #f9f9f9;
+    --bg-secondary: #e0e0e0;
+    --fg-secondary: #555555;
+    --fg-primary: #000000;
+    --fg-lime: #0ed839;
+    --fg-green: #23edda;
+    --fg-blue: #3b48e3;
+    --fg-pink: #f996e2;
+}
+
+.silk-dark {
+    --fg-red: #FB4934;
+    --bg-primary: #0e3c46;
+    --bg-secondary: #1D494E;
+    --fg-secondary: #587073;
+    --fg-primary: #D2FAFF;
+    --fg-lime: #73d8ad;
+    --fg-green: #3fb2b9;
+    --fg-blue: #46bddd;
+    --fg-pink: #756b8a;
+}
+
+.silk-light {
+    --fg-red: #FB4934;
+    --bg-primary: #E9F1EF;
+    --bg-secondary: #CCD4D3;
+    --fg-secondary: #5C787B;
+    --fg-primary: #D2FAFF;
+    --fg-lime: #6CA38C;
+    --fg-green: #329CA2;
+    --fg-blue: #39AAC9;
+    --fg-pink: #6E6582;
+}
+
+.snazzy {
+    --fg-red: #FB4934;
+    --bg-primary: #282a36;
+    --bg-secondary: #34353e;
+    --fg-secondary: #78787e;
+    --fg-primary: #f1f1f0;
+    --fg-lime: #5af78e;
+    --fg-green: #9aedfe;
+    --fg-blue: #57c7ff;
+    --fg-pink: #ff6ac1;
+}
+
+.solarflare-light {
+    --fg-red: #FB4934;
+    --bg-primary: #F5F7FA;
+    --bg-secondary: #E8E9ED;
+    --fg-secondary: #85939E;
+    --fg-primary: #18262F;
+    --fg-lime: #7CC844;
+    --fg-green: #52CBB0;
+    --fg-blue: #33B5E1;
+    --fg-pink: #A363D5;
+}
+
+.solarflare {
+    --fg-red: #FB4934;
+    --bg-primary: #18262F;
+    --bg-secondary: #222E38;
+    --fg-secondary: #667581;
+    --fg-primary: #F5F7FA;
+    --fg-lime: #7CC844;
+    --fg-green: #52CBB0;
+    --fg-blue: #33B5E1;
+    --fg-pink: #A363D5;
+}
+
+.solarized-dark {
+    --fg-red: #FB4934;
+    --bg-primary: #002b36;
+    --bg-secondary: #073642;
+    --fg-secondary: #657b83;
+    --fg-primary: #fdf6e3;
+    --fg-lime: #859900;
+    --fg-green: #2aa198;
+    --fg-blue: #268bd2;
+    --fg-pink: #6c71c4;
+}
+
+.solarized-light {
+    --fg-red: #FB4934;
+    --bg-primary: #fdf6e3;
+    --bg-secondary: #eee8d5;
+    --fg-secondary: #839496;
+    --fg-primary: #002b36;
+    --fg-lime: #859900;
+    --fg-green: #2aa198;
+    --fg-blue: #268bd2;
+    --fg-pink: #6c71c4;
+}
+
+.spaceduck {
+    --fg-red: #FB4934;
+    --bg-primary: #16172d;
+    --bg-secondary: #1b1c36;
+    --fg-secondary: #686f9a;
+    --fg-primary: #ffffff;
+    --fg-lime: #5ccc96;
+    --fg-green: #00a3cc;
+    --fg-blue: #7a5ccc;
+    --fg-pink: #b3a1e6;
+}
+
+.spacemacs {
+    --fg-red: #FB4934;
+    --bg-primary: #1f2022;
+    --bg-secondary: #282828;
+    --fg-secondary: #585858;
+    --fg-primary: #f8f8f8;
+    --fg-lime: #67b11d;
+    --fg-green: #2d9574;
+    --fg-blue: #4f97d7;
+    --fg-pink: #a31db1;
+}
+
+.stella {
+    --fg-red: #FB4934;
+    --bg-primary: #2B213C;
+    --bg-secondary: #362B48;
+    --fg-secondary: #655978;
+    --fg-primary: #EBDCFF;
+    --fg-lime: #ACC79B;
+    --fg-green: #9BC7BF;
+    --fg-blue: #A5AAD4;
+    --fg-pink: #C594FF;
+}
+
+.still-alive {
+    --fg-red: #FB4934;
+    --bg-primary: #F0F0F0;
+    --bg-secondary: #F0D848;
+    --fg-secondary: #F01818;
+    --fg-primary: #30A860;
+    --fg-lime: #5C5C6A;
+    --fg-green: #2C3C57;
+    --fg-blue: #001878;
+    --fg-pink: #900000;
+}
+
+.summercamp {
+    --fg-red: #FB4934;
+    --bg-primary: #1c1810;
+    --bg-secondary: #2a261c;
+    --fg-secondary: #504b38;
+    --fg-primary: #f8f5de;
+    --fg-lime: #5ceb5a;
+    --fg-green: #5aebbc;
+    --fg-blue: #489bf0;
+    --fg-pink: #FF8080;
+}
+
+.summerfruit-dark {
+    --fg-red: #FB4934;
+    --bg-primary: #151515;
+    --bg-secondary: #202020;
+    --fg-secondary: #505050;
+    --fg-primary: #FFFFFF;
+    --fg-lime: #00C918;
+    --fg-green: #1FAAAA;
+    --fg-blue: #3777E6;
+    --fg-pink: #AD00A1;
+}
+
+.summerfruit-light {
+    --fg-red: #FB4934;
+    --bg-primary: #FFFFFF;
+    --bg-secondary: #E0E0E0;
+    --fg-secondary: #B0B0B0;
+    --fg-primary: #202020;
+    --fg-lime: #00C918;
+    --fg-green: #1FAAAA;
+    --fg-blue: #3777E6;
+    --fg-pink: #AD00A1;
+}
+
+.synth-midnight-dark {
+    --fg-red: #FB4934;
+    --bg-primary: #050608;
+    --bg-secondary: #1a1b1c;
+    --fg-secondary: #474849;
+    --fg-primary: #dddfe0;
+    --fg-lime: #06ea61;
+    --fg-green: #42fff9;
+    --fg-blue: #03aeff;
+    --fg-pink: #ea5ce2;
+}
+
+.synth-midnight-light {
+    --fg-red: #FB4934;
+    --bg-primary: #dddfe0;
+    --bg-secondary: #cfd1d2;
+    --fg-secondary: #a3a5a6;
+    --fg-primary: #050608;
+    --fg-lime: #06ea61;
+    --fg-green: #42fff9;
+    --fg-blue: #03aeff;
+    --fg-pink: #ea5ce2;
+}
+
+.tango {
+    --fg-red: #FB4934;
+    --bg-primary: #2e3436;
+    --bg-secondary: #8ae234;
+    --fg-secondary: #555753;
+    --fg-primary: #eeeeec;
+    --fg-lime: #4e9a06;
+    --fg-green: #06989a;
+    --fg-blue: #3465a4;
+    --fg-pink: #75507b;
+}
+
+.tender {
+    --fg-red: #FB4934;
+    --bg-primary: #282828;
+    --bg-secondary: #383838;
+    --fg-secondary: #4c4c4c;
+    --fg-primary: #feffff;
+    --fg-lime: #c9d05c;
+    --fg-green: #73cef4;
+    --fg-blue: #b3deef;
+    --fg-pink: #d3b987;
+}
+
+.tokyo-city-dark {
+    --fg-red: #FB4934;
+    --bg-primary: #171D23;
+    --bg-secondary: #1D252C;
+    --fg-secondary: #526270;
+    --fg-primary: #FBFBFD;
+    --fg-lime: #9ECE6A;
+    --fg-green: #89DDFF;
+    --fg-blue: #7AA2F7;
+    --fg-pink: #BB9AF7;
+}
+
+.tokyo-city-light {
+    --fg-red: #FB4934;
+    --bg-primary: #FBFBFD;
+    --bg-secondary: #F6F6F8;
+    --fg-secondary: #9699A3;
+    --fg-primary: #171D23;
+    --fg-lime: #485E30;
+    --fg-green: #4C505E;
+    --fg-blue: #34548a;
+    --fg-pink: #5A4A78;
+}
+
+.tokyo-city-terminal-dark {
+    --fg-red: #FB4934;
+    --bg-primary: #171D23;
+    --bg-secondary: #1D252C;
+    --fg-secondary: #526270;
+    --fg-primary: #FBFBFD;
+    --fg-lime: #8BD49C;
+    --fg-green: #70E1E8;
+    --fg-blue: #539AFC;
+    --fg-pink: #B62D65;
+}
+
+.tokyo-city-terminal-light {
+    --fg-red: #FB4934;
+    --bg-primary: #FBFBFD;
+    --bg-secondary: #F6F6F8;
+    --fg-secondary: #B7C5D3;
+    --fg-primary: #171D23;
+    --fg-lime: #33635C;
+    --fg-green: #0F4B6E;
+    --fg-blue: #34548A;
+    --fg-pink: #5A4A78;
+}
+
+.tokyo-night-dark {
+    --fg-red: #FB4934;
+    --bg-primary: #1A1B26;
+    --bg-secondary: #16161E;
+    --fg-secondary: #444B6A;
+    --fg-primary: #D5D6DB;
+    --fg-lime: #9ECE6A;
+    --fg-green: #B4F9F8;
+    --fg-blue: #2AC3DE;
+    --fg-pink: #BB9AF7;
+}
+
+.tokyo-night-light {
+    --fg-red: #FB4934;
+    --bg-primary: #D5D6DB;
+    --bg-secondary: #CBCCD1;
+    --fg-secondary: #9699A3;
+    --fg-primary: #1A1B26;
+    --fg-lime: #485E30;
+    --fg-green: #3E6968;
+    --fg-blue: #34548A;
+    --fg-pink: #5A4A78;
+}
+
+.tokyo-night-storm {
+    --fg-red: #FB4934;
+    --bg-primary: #24283B;
+    --bg-secondary: #16161E;
+    --fg-secondary: #444B6A;
+    --fg-primary: #D5D6DB;
+    --fg-lime: #9ECE6A;
+    --fg-green: #B4F9F8;
+    --fg-blue: #2AC3DE;
+    --fg-pink: #BB9AF7;
+}
+
+.tokyo-night-terminal-dark {
+    --fg-red: #FB4934;
+    --bg-primary: #16161E;
+    --bg-secondary: #1A1B26;
+    --fg-secondary: #444B6A;
+    --fg-primary: #D5D6DB;
+    --fg-lime: #41A6B5;
+    --fg-green: #7DCFFF;
+    --fg-blue: #7AA2F7;
+    --fg-pink: #BB9AF7;
+}
+
+.tokyo-night-terminal-light {
+    --fg-red: #FB4934;
+    --bg-primary: #D5D6DB;
+    --bg-secondary: #CBCCD1;
+    --fg-secondary: #9699A3;
+    --fg-primary: #1A1B26;
+    --fg-lime: #33635C;
+    --fg-green: #0F4B6E;
+    --fg-blue: #34548A;
+    --fg-pink: #5A4A78;
+}
+
+.tokyo-night-terminal-storm {
+    --fg-red: #FB4934;
+    --bg-primary: #24283B;
+    --bg-secondary: #1A1B26;
+    --fg-secondary: #444B6A;
+    --fg-primary: #D5D6DB;
+    --fg-lime: #41A6B5;
+    --fg-green: #7DCFFF;
+    --fg-blue: #7AA2F7;
+    --fg-pink: #BB9AF7;
+}
+
+.tokyodark-terminal {
+    --fg-red: #FB4934;
+    --bg-primary: #11121d;
+    --bg-secondary: #1A1B2A;
+    --fg-secondary: #282c34;
+    --fg-primary: #a0a8cd;
+    --fg-lime: #95c561;
+    --fg-green: #38a89d;
+    --fg-blue: #7199ee;
+    --fg-pink: #a485dd;
+}
+
+.tokyodark {
+    --fg-red: #FB4934;
+    --bg-primary: #11121d;
+    --bg-secondary: #151621;
+    --fg-secondary: #393a45;
+    --fg-primary: #2c2d38;
+    --fg-lime: #d7A65f;
+    --fg-green: #a485dd;
+    --fg-blue: #95c561;
+    --fg-pink: #ee6d85;
+}
+
+.tomorrow-night-eighties {
+    --fg-red: #FB4934;
+    --bg-primary: #2d2d2d;
+    --bg-secondary: #393939;
+    --fg-secondary: #999999;
+    --fg-primary: #ffffff;
+    --fg-lime: #99cc99;
+    --fg-green: #66cccc;
+    --fg-blue: #6699cc;
+    --fg-pink: #cc99cc;
+}
+
+.tomorrow-night {
+    --fg-red: #FB4934;
+    --bg-primary: #1d1f21;
+    --bg-secondary: #282a2e;
+    --fg-secondary: #969896;
+    --fg-primary: #ffffff;
+    --fg-lime: #b5bd68;
+    --fg-green: #8abeb7;
+    --fg-blue: #81a2be;
+    --fg-pink: #b294bb;
+}
+
+.tomorrow {
+    --fg-red: #FB4934;
+    --bg-primary: #ffffff;
+    --bg-secondary: #e0e0e0;
+    --fg-secondary: #8e908c;
+    --fg-primary: #1d1f21;
+    --fg-lime: #718c00;
+    --fg-green: #3e999f;
+    --fg-blue: #4271ae;
+    --fg-pink: #8959a8;
+}
+
+.tube {
+    --fg-red: #FB4934;
+    --bg-primary: #231f20;
+    --bg-secondary: #1c3f95;
+    --fg-secondary: #737171;
+    --fg-primary: #ffffff;
+    --fg-lime: #00853e;
+    --fg-green: #85cebc;
+    --fg-blue: #009ddc;
+    --fg-pink: #98005d;
+}
+
+.twilight {
+    --fg-red: #FB4934;
+    --bg-primary: #1e1e1e;
+    --bg-secondary: #323537;
+    --fg-secondary: #5f5a60;
+    --fg-primary: #ffffff;
+    --fg-lime: #8f9d6a;
+    --fg-green: #afc4db;
+    --fg-blue: #7587a6;
+    --fg-pink: #9b859d;
+}
+
+.unikitty-dark {
+    --fg-red: #FB4934;
+    --bg-primary: #2e2a31;
+    --bg-secondary: #4a464d;
+    --fg-secondary: #838085;
+    --fg-primary: #f5f4f7;
+    --fg-lime: #17ad98;
+    --fg-green: #149bda;
+    --fg-blue: #796af5;
+    --fg-pink: #bb60ea;
+}
+
+.unikitty-light {
+    --fg-red: #FB4934;
+    --bg-primary: #ffffff;
+    --bg-secondary: #e1e1e2;
+    --fg-secondary: #a7a5a8;
+    --fg-primary: #322d34;
+    --fg-lime: #17ad98;
+    --fg-green: #149bda;
+    --fg-blue: #775dff;
+    --fg-pink: #aa17e6;
+}
+
+.unikitty-reversible {
+    --fg-red: #FB4934;
+    --bg-primary: #2e2a31;
+    --bg-secondary: #4b484e;
+    --fg-secondary: #878589;
+    --fg-primary: #ffffff;
+    --fg-lime: #17ad98;
+    --fg-green: #149bda;
+    --fg-blue: #7864fa;
+    --fg-pink: #b33ce8;
+}
+
+.uwunicorn {
+    --fg-red: #FB4934;
+    --bg-primary: #241b26;
+    --bg-secondary: #2f2a3f;
+    --fg-secondary: #6c3cb2;
+    --fg-primary: #e4ccd0;
+    --fg-lime: #c965bf;
+    --fg-green: #9c5fce;
+    --fg-blue: #6a9eb5;
+    --fg-pink: #78a38f;
+}
+
+.vice {
+    --fg-red: #FB4934;
+    --bg-primary: #17191E;
+    --bg-secondary: #22262d;
+    --fg-secondary: #383a47;
+    --fg-primary: #f4f4f7;
+    --fg-lime: #0badff;
+    --fg-green: #8265ff;
+    --fg-blue: #00eaff;
+    --fg-pink: #00f6d9;
+}
+
+.vulcan {
+    --fg-red: #FB4934;
+    --bg-primary: #041523;
+    --bg-secondary: #122339;
+    --fg-secondary: #7a5759;
+    --fg-primary: #214d68;
+    --fg-lime: #977d7c;
+    --fg-green: #977d7c;
+    --fg-blue: #977d7c;
+    --fg-pink: #9198a3;
+}
+
+.windows-10-light {
+    --fg-red: #FB4934;
+    --bg-primary: #f2f2f2;
+    --bg-secondary: #e5e5e5;
+    --fg-secondary: #cccccc;
+    --fg-primary: #0c0c0c;
+    --fg-lime: #13a10e;
+    --fg-green: #3a96dd;
+    --fg-blue: #0037da;
+    --fg-pink: #881798;
+}
+
+.windows-10 {
+    --fg-red: #FB4934;
+    --bg-primary: #0c0c0c;
+    --bg-secondary: #2f2f2f;
+    --fg-secondary: #767676;
+    --fg-primary: #f2f2f2;
+    --fg-lime: #16c60c;
+    --fg-green: #61d6d6;
+    --fg-blue: #3b78ff;
+    --fg-pink: #b4009e;
+}
+
+.windows-95-light {
+    --fg-red: #FB4934;
+    --bg-primary: #fcfcfc;
+    --bg-secondary: #e0e0e0;
+    --fg-secondary: #a8a8a8;
+    --fg-primary: #000000;
+    --fg-lime: #00a800;
+    --fg-green: #00a8a8;
+    --fg-blue: #0000a8;
+    --fg-pink: #a800a8;
+}
+
+.windows-95 {
+    --fg-red: #FB4934;
+    --bg-primary: #000000;
+    --bg-secondary: #1C1C1C;
+    --fg-secondary: #545454;
+    --fg-primary: #fcfcfc;
+    --fg-lime: #54fc54;
+    --fg-green: #54fcfc;
+    --fg-blue: #5454fc;
+    --fg-pink: #fc54fc;
+}
+
+.windows-highcontrast-light {
+    --fg-red: #FB4934;
+    --bg-primary: #fcfcfc;
+    --bg-secondary: #e8e8e8;
+    --fg-secondary: #c0c0c0;
+    --fg-primary: #000000;
+    --fg-lime: #008000;
+    --fg-green: #008080;
+    --fg-blue: #000080;
+    --fg-pink: #800080;
+}
+
+.windows-highcontrast {
+    --fg-red: #FB4934;
+    --bg-primary: #000000;
+    --bg-secondary: #1C1C1C;
+    --fg-secondary: #545454;
+    --fg-primary: #fcfcfc;
+    --fg-lime: #54fc54;
+    --fg-green: #54fcfc;
+    --fg-blue: #5454fc;
+    --fg-pink: #fc54fc;
+}
+
+.windows-nt-light {
+    --fg-red: #FB4934;
+    --bg-primary: #ffffff;
+    --bg-secondary: #eaeaea;
+    --fg-secondary: #c0c0c0;
+    --fg-primary: #000000;
+    --fg-lime: #008000;
+    --fg-green: #008080;
+    --fg-blue: #000080;
+    --fg-pink: #800080;
+}
+
+.windows-nt {
+    --fg-red: #FB4934;
+    --bg-primary: #000000;
+    --bg-secondary: #2a2a2a;
+    --fg-secondary: #808080;
+    --fg-primary: #ffffff;
+    --fg-lime: #00ff00;
+    --fg-green: #00ffff;
+    --fg-blue: #0000ff;
+    --fg-pink: #ff00ff;
+}
+
+.woodland {
+    --fg-red: #FB4934;
+    --bg-primary: #231e18;
+    --bg-secondary: #302b25;
+    --fg-secondary: #9d8b70;
+    --fg-primary: #e4d4c8;
+    --fg-lime: #b7ba53;
+    --fg-green: #6eb958;
+    --fg-blue: #88a4d3;
+    --fg-pink: #bb90e2;
+}
+
+.xcode-dusk {
+    --fg-red: #FB4934;
+    --bg-primary: #282B35;
+    --bg-secondary: #3D4048;
+    --fg-secondary: #686A71;
+    --fg-primary: #BEBFC2;
+    --fg-lime: #DF0002;
+    --fg-green: #00A0BE;
+    --fg-blue: #790EAD;
+    --fg-pink: #B21889;
+}
+
+.zenburn {
+    --fg-red: #FB4934;
+    --bg-primary: #383838;
+    --bg-secondary: #404040;
+    --fg-secondary: #6f6f6f;
+    --fg-primary: #ffffff;
+    --fg-lime: #5f7f5f;
+    --fg-green: #93e0e3;
+    --fg-blue: #7cb8bb;
+    --fg-pink: #dc8cc3;
+}
+
