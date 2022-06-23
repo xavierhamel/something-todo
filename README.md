@@ -11,7 +11,7 @@
 
 ---
 
-# PUT AN IMAGE HERE
+![image](./readme_background.png "Image")
 
 ---
 
